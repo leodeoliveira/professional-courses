@@ -1,0 +1,9 @@
+C:\Projetos\prof-courses\prof-courses\prof-courses\bin\Debug\netcoreapp1.1\ProfCourses.deps.json
+C:\Projetos\prof-courses\prof-courses\prof-courses\bin\Debug\netcoreapp1.1\ProfCourses.runtimeconfig.json
+C:\Projetos\prof-courses\prof-courses\prof-courses\bin\Debug\netcoreapp1.1\ProfCourses.runtimeconfig.dev.json
+C:\Projetos\prof-courses\prof-courses\prof-courses\bin\Debug\netcoreapp1.1\ProfCourses.dll
+C:\Projetos\prof-courses\prof-courses\prof-courses\bin\Debug\netcoreapp1.1\ProfCourses.pdb
+C:\Projetos\prof-courses\prof-courses\prof-courses\obj\Debug\netcoreapp1.1\ProfCourses.AssemblyInfo.cs
+C:\Projetos\prof-courses\prof-courses\prof-courses\obj\Debug\netcoreapp1.1\ProfCourses.dll
+C:\Projetos\prof-courses\prof-courses\prof-courses\obj\Debug\netcoreapp1.1\ProfCourses.pdb
+C:\Projetos\prof-courses\prof-courses\prof-courses\obj\Debug\netcoreapp1.1\ProfCourses.csprojResolveAssemblyReference.cache

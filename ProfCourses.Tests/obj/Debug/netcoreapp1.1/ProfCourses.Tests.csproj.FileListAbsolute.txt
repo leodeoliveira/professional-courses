@@ -1,0 +1,14 @@
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\ProfCourses.Tests.deps.json
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\ProfCourses.Tests.runtimeconfig.json
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\ProfCourses.Tests.runtimeconfig.dev.json
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\ProfCourses.Tests.dll
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\ProfCourses.Tests.pdb
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\ProfCourses.dll
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\bin\Debug\netcoreapp1.1\ProfCourses.pdb
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\obj\Debug\netcoreapp1.1\ProfCourses.Tests.csprojResolveAssemblyReference.cache
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\obj\Debug\netcoreapp1.1\ProfCourses.Tests.AssemblyInfo.cs
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\obj\Debug\netcoreapp1.1\ProfCourses.Tests.dll
+C:\Projetos\prof-courses\prof-courses\ProfCourses.Tests\obj\Debug\netcoreapp1.1\ProfCourses.Tests.pdb

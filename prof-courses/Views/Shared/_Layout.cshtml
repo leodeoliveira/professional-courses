@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cursos profissionalizantes - @ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/funcions.js"></script>
+
+    <div class="container">
+        <!-- The justified navigation menu is meant for single line per list item.
+         Multiple lines will require custom code not provided by Bootstrap. -->
+        <div class="masthead">
+            <h2 class="text-muted">Cursos profissionalizantes</h2>
+            <nav>
+                <ul class="nav nav-justified"  id="myTab">
+                    <li><a href="@Url.Action("Index", "Gastronomy")" class="course-list">Gastronomia</a></li>
+                    <li><a href="@Url.Action("Index", "Nursing")" class="course-list">Enfermagem</a></li>
+                    <li><a href="@Url.Action("Index", "Pharmacy")" class="course-list">Farmácia</a></li>
+                    <li><a href="@Url.Action("Index", "DevSoftware")" class="course-list">Desenvolvimento Software</a></li>
+                    <li><a href="@Url.Action("Index", "Management")" class="course-list">Administração</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Jumbotron -->
+        <div class="jumbotron" style="padding-bottom:0px;">
+            <h1>@ViewBag.Title</h1>
+            <p class="lead">Não perca mais tempo, comece a investir na sua carreira hoje mesmo.</p>
+            <p><a class="btn btn-lg btn-success" href="@Url.Action("Create")" role="button" id="btn_apply">Inscreva-se aqui</a></p>
+        </div>
+        
+        @RenderBody()
+        
+            <!-- Site footer -->
+            <footer class="footer">
+                <p>&copy; 2017 Company, Inc.</p>
+            </footer>
+
+        </div> <!-- /container -->
+</body>
+</html>
