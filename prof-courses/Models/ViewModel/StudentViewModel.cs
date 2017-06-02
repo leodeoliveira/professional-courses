@@ -15,7 +15,7 @@ namespace ProfCourses.Models
         [Display(Name= "Nome")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "O campo Nome é obrigatório.")]
+        [Required(ErrorMessage = "O campo Email é obrigatório.")]
         [EmailAddress(ErrorMessage = "Este não é um email válido")]
         [Display(Name = "Email")]
         public string Email { get; set; }

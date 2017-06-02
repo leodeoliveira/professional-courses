@@ -11,14 +11,10 @@
 
 </head>
 <body>
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/funcions.js"></script>
 
     <div class="container">
-        <!-- The justified navigation menu is meant for single line per list item.
-         Multiple lines will require custom code not provided by Bootstrap. -->
         <div class="masthead">
             <h2 class="text-muted">Cursos profissionalizantes</h2>
             <nav>
@@ -32,7 +28,6 @@
             </nav>
         </div>
 
-        <!-- Jumbotron -->
         <div class="jumbotron" style="padding-bottom:0px;">
             <h1>@ViewBag.Title</h1>
             <p class="lead">Não perca mais tempo, comece a investir na sua carreira hoje mesmo.</p>
@@ -41,11 +36,12 @@
         
         @RenderBody()
         
-            <!-- Site footer -->
             <footer class="footer">
                 <p>&copy; 2017 Company, Inc.</p>
             </footer>
 
-        </div> <!-- /container -->
+        </div> 
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 </body>
 </html>
