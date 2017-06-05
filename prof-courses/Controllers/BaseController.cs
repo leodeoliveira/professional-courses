@@ -32,18 +32,21 @@ namespace ProfCourses.Controllers
 
         private void AddAlert(string alertStyle, string message, bool dismissable)
         {
-            var alerts = TempData.ContainsKey(Alert.TempDataKey)
-                ? (List<Alert>)TempData[Alert.TempDataKey]
-                : new List<Alert>();
-
-            alerts.Add(new Alert
+            if (TempData != null)
             {
-                AlertStyle = alertStyle,
-                Message = message,
-                Dismissable = dismissable
-            });
+                var alerts = TempData.ContainsKey(Alert.TempDataKey)
+                    ? (List<Alert>)TempData[Alert.TempDataKey]
+                    : new List<Alert>();
 
-            TempData[Alert.TempDataKey] = alerts;
+                alerts.Add(new Alert
+                {
+                    AlertStyle = alertStyle,
+                    Message = message,
+                    Dismissable = dismissable
+                });
+
+                TempData[Alert.TempDataKey] = alerts;
+            }
         }
 
         protected virtual void SuccessMessage()
