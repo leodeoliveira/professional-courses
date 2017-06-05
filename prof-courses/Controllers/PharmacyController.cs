@@ -3,11 +3,9 @@ using ProfCourses.Models;
 using ProfCourses.Models.Enums;
 using ProfCourses.Models.Data;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace ProfCourses.Controllers
 {
-    public class PharmacyController : Controller
+    public class PharmacyController : BaseController
     {
         // GET: /<controller>/
         public IActionResult Index()
@@ -26,6 +24,8 @@ namespace ProfCourses.Controllers
         {
             if (ModelState.IsValid)
                 CreateStudent(model);
+            else
+                ErrorMessage();
 
             return View(model);
         }
@@ -37,6 +37,8 @@ namespace ProfCourses.Controllers
                 model.Course = CoursesEnum.Pharmacy;
                 Student student = new Student();
                 student.ClassesMapper(model);
+                string message = string.Format("O estudante {0} foi cadastrado com sucesso no curso de Farmácia", model.Name);
+                Success(message);
                 return student;
             }
             return null;

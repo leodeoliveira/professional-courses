@@ -11,7 +11,7 @@ using ProfCourses.Models.Data;
 
 namespace ProfCourses.Controllers
 {
-    public class GastronomyController : Controller
+    public class GastronomyController : BaseController
     {
         // GET: /<controller>/
         public IActionResult Index()
@@ -31,6 +31,8 @@ namespace ProfCourses.Controllers
             {
                 CreateStudent(model);
             }
+            else
+                ErrorMessage();
 
             return View(model);
         }
@@ -42,6 +44,8 @@ namespace ProfCourses.Controllers
                 model.Course = CoursesEnum.Gastronomy;
                 Student student = new Student();
                 student.ClassesMapper(model);
+                string message = string.Format("O estudante {0} foi cadastrado com sucesso no curso de Gastronomia", model.Name);
+                Success(message);
                 return student;
             }
             return null;

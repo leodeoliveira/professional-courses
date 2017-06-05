@@ -11,7 +11,7 @@ using ProfCourses.Models.Enums;
 
 namespace ProfCourses.Controllers
 {
-    public class ManagementController : Controller
+    public class ManagementController : BaseController
     {
         // GET: /<controller>/
         public IActionResult Index()
@@ -30,6 +30,8 @@ namespace ProfCourses.Controllers
         {
             if (ModelState.IsValid)
                 CreateStudent(model);
+            else
+                ErrorMessage();
 
             return View(model);
         }
@@ -41,6 +43,8 @@ namespace ProfCourses.Controllers
                 model.Course = CoursesEnum.Management;
                 Student student = new Student();
                 student.ClassesMapper(model);
+                string message = string.Format("O estudante {0} foi cadastrado com sucesso no curso de Administração", model.Name);
+                Success(message);
                 return student;
             }
             return null;
